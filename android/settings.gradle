@@ -1,0 +1,5 @@
+rootProject.name = 'nfab'
+
+include ':app'
+include ':com.github.clans.fab'
+project(':com.github.clans.fab').projectDir = new File(rootProject.projectDir, '../FloatingActionButton/library')
